@@ -1,0 +1,57 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    string str;
+    
+    cin>>str;
+    cout<<str;
+    
+    return 0;
+}
+
+OUTPUT:
+
+PERMUTATIONS
+PERMUTATIONS
+
+_____________________________________________________________
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    string str="PERMUTATIONS";
+    
+    cout<<str;
+    
+    return 0;
+}
+
+
+OUTPUT:
+
+PERMUTATIONS
+
+_____________________________________________________________
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    string str(10,'h');
+    
+    cout<<str;
+    
+    return 0;
+}
+
+OUTPUT:
+
+hhhhhhhhhh
+
+
+
