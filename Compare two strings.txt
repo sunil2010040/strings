@@ -1,0 +1,43 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    string str1;  
+    string str2;
+    
+    cout<<"enter string 1"<<endl;
+    cin>>str1;
+    
+    cout<<"enter string 2"<<endl;
+    cin>>str2;
+    
+    if(str1.compare(str2)==0)
+    {
+        cout<<"these two strings are equal"<<endl;
+    }
+    
+    else
+    {
+        cout<<"these two strings are not equal"<<endl;
+    }
+    
+    return 0;
+}
+
+
+OUTPUT:
+
+enter string 1
+hello
+enter string 2
+hello
+these two strings are equal
+
+
+enter string 1
+HELLO
+enter string 2
+WORLD
+these two strings are not equal
+
