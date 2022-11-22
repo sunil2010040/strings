@@ -1,0 +1,27 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    int m,n;
+    
+    string str1;
+    cout<<"enter the string"<<endl;
+    cin>>str1;
+    
+    cout<<"enter the index range of substring you want"<<endl;
+    cin>>m>>n;
+    
+    cout<<str1.substr(m,n);
+    
+    return 0;
+}
+
+OUTPUT:
+
+enter the string
+permutations
+enter the index range of substring you want
+3
+7
+mutatio
