@@ -1,0 +1,23 @@
+#include<iostream>
+#include<algorithm>
+#include<string>
+using namespace std;
+int main()
+{
+    int temp;
+    string str;
+    cout<<"ENTER STRING"<<endl;
+    cin>>str;
+    
+    sort(str.begin(),str.end(),greater<char>());
+    cout<<"SORTED STRING IS:"<<endl;
+    cout<<str;
+    return 0;
+}
+
+OUTPUT:
+
+ENTER STRING
+64554235234
+SORTED STRING IS:
+65554443322
