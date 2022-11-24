@@ -1,0 +1,45 @@
+#include<iostream>
+#include<algorithm>
+#include<string>
+using namespace std;
+int main()
+{
+    string str;
+    cout<<"enter string"<<endl;
+    cin>>str;
+    
+    
+    //as we know that differnce in small and capital value of character is differ by 32 and we will make use of it
+    for(int i=0;i<str.length();i++)
+    {
+        if(str[i]>='a' && str[i]<='z')
+        {
+            str[i]=str[i]-32;
+        }
+    }
+    cout<<"the string in upper case:"<<endl;
+    cout<<str<<endl;
+    
+    for(int i=0;i<str.length();i++)
+    {
+        if(str[i]>='A' && str[i]<='Z')
+        {
+            str[i]=str[i]+32;
+        }
+    }
+    cout<<"the string in lower case:"<<endl;
+    cout<<str<<endl;
+    return 0;
+}
+
+
+OUTPUT:
+
+
+enter string
+PeRmutATIon
+the string in upper case:
+PERMUTATION
+the string in lower case:
+permutation
+
